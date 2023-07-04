@@ -36,6 +36,10 @@ Many people often come across catchy tunes but struggle to find the exact match 
 
 3. **Note Sequence Extraction:** Individual notes that span across multiple frames are treated as a cohesive unit. After obtaining the note sequence from the audio analysis, it is used to perform a matching process against the songs stored in the database.
 
+<p align="center">
+   <img src = "https://github.com/AdityaPatil-AP/Music-Pattern-Recognition/blob/main/Documentation_Paper/Pitch-Detection.jpg">
+</p>
+
 ### Approach 2 (Using Crepe Model):
 
 1. **Pitch Estimation with Crepe:** The Crepe model is employed to estimate the pitch or fundamental frequency of each windowed segment of the audio. Peak values or local maxima values for average amplitudes are extracted to identify the highest frequency values.
@@ -45,6 +49,10 @@ Many people often come across catchy tunes but struggle to find the exact match 
 3. **Note Sequence Generation:** The mapped note values from each windowed segment are combined to form a sequence of notes representing the melodic structure of the song.
 
 4. **Matching with Database:** The note sequence generated from the input audio is matched against the note sequences of the songs stored in the dataset. The Levenshtein edit distance algorithm is applied to calculate the similarity between the sequences.
+
+<p align="center">
+   <img src = "https://github.com/AdityaPatil-AP/Music-Pattern-Recognition/blob/main/Documentation_Paper/Crepe-Average-Amplitude.jpg">
+</p>
 
 ## Tools and Technologies
 
