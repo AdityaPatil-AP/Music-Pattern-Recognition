@@ -22,6 +22,10 @@ Many people often come across catchy tunes but struggle to find the exact match 
 
 5. **Scale-Independent Detection:** The Music Pattern Recognition model aims to accurately estimate the pitch of a sound regardless of the musical scale in which it is performed.
 
+<p align="center">
+   <img src = "https://github.com/AdityaPatil-AP/Music-Pattern-Recognition/blob/main/Documentation_Paper/System_Workflow.png">
+</p>
+
 ## Methodology
 
 ### Approach 1 (Using Pyin Library):
