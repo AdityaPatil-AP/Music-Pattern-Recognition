@@ -10,6 +10,10 @@ The task of Music Pattern Recognition is to detect a song played, recorded, sung
 
 Many people often come across catchy tunes but struggle to find the exact match using traditional search methods. Existing systems like Google's "Hum to Search" feature or Shazam have limitations and may not provide accurate results. Music Pattern Recognition aims to address these challenges and improve song recognition technology.
 
+<p align = "center">
+   <img src = "https://github.com/AdityaPatil-AP/Music-Pattern-Recognition/blob/main/Documentation_Paper/Spectrogram.jpg">
+</p>
+
 ## Features
 
 1. **Pitch Estimation using Crepe and Pyin Models:** The project utilizes advanced models like Crepe and Pyin for estimating the pitch or fundamental frequency of the audio samples.
@@ -21,6 +25,8 @@ Many people often come across catchy tunes but struggle to find the exact match 
 4. **Matching with Database using Edit Distance:** The note sequence or melody representation of the input audio is stored in a database or compared against a pre-existing database of known songs. The matching process is performed using the Levenshtein edit distance algorithm.
 
 5. **Scale-Independent Detection:** The Music Pattern Recognition model aims to accurately estimate the pitch of a sound regardless of the musical scale in which it is performed.
+
+## System Workflow
 
 <p align="center">
    <img src = "https://github.com/AdityaPatil-AP/Music-Pattern-Recognition/blob/main/Documentation_Paper/System_Workflow.png">
